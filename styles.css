@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+body {
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 120%;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    font-variant: small-caps;
+}
+
+h4 {
+    text-transform: uppercase;
+    border-bottom: 3px solid blue;
+    width: 100%;
+    font-weight: bold;
+}
+
+#cv h2 {
+    font-size: 7rem;
+    line-height: .8;
+}
+
+u {
+    text-decoration: none;
+    border-bottom: 3px solid lightskyblue;
+    padding: 0;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+#cv img {
+    border: 5px solid lightskyblue;
+}
+
+th {
+    text-transform: capitalize;
+}
+
+#trunk {
+    margin-top: 100px;
+}
+
+nav {
+    background-color: lightpink;
+    margin: auto 5vw;
+    padding: 5vh 5vw 5vh;
+}
+
+#cv a {
+    width: 15vw;
+}
+
+#galeria button {
+    width: 20vw;
+    font-size: 1.5rem;
+}
+
+#kepek img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+#kepek img:hover{
+    transform: scale(2);
+}
+#kepek {
+    display: flex;
+    flex-flow: row wrap;
+    /*align-items: stretch;*/
+}
+
+.image {
+    border-radius: 10px;
+    background-color: lightpink;
+    padding: 10px;
+    margin: 5px;
+    flex: 1 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.wide{
+    flex: 2 300px;
+  }
+.image figcaption {
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    padding-top: 3px;
+}
+fieldset{
+    margin: 10px;
+    border: 1px solid;
+    padding: 20px;
+    
+}
+legend{
+    text-align: center;
+}
