@@ -9,7 +9,7 @@ $("#nav2").click(() => navigation("#nav2"))
 $("#nav3").click(() => navigation("#nav3"))
 $("#nav4").click(() => navigation("#nav4"))
 $("#nav5").click(() => navigation("#nav5"))
-$("#nav6").click(() => navigation("#nav6"))
+/*$("#nav6").click(() => navigation("#nav6"))*/
 
 $("#meme").click(() => {
     $("#galeria").find(".active").removeClass("active")
@@ -66,7 +66,7 @@ function scroll(id, target) {
 $("#btn1").click(() => scroll("#btn1", "#pg1"))
 $("#btn2").click(() => scroll("#btn2", "#pg2"))
 $("#btn3").click(() => scroll("#btn3", "#pg3"))
-function formCheck() {
+/*function formCheck() {
     let isReady = false
     if ($("#nev").val() == '') {
         alert("Kérem adja meg a nevét!")
@@ -99,4 +99,4 @@ $("#kuld").click(() => {
         txt += "<tr><td>Üzenet: </td><td>" + $("#uzi").val() + "</td></tr>"
         $("table").append(txt)
     }
-})
+})*/
