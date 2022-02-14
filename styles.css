@@ -106,3 +106,13 @@ fieldset{
 legend{
     text-align: center;
 }
+@media only screen and (min-width: 1920px) {
+    #cv a {
+        width: 10vw;
+    }
+}
+@media only screen and (min-width: 2560px) {
+    #cv a {
+        width: 7vw;
+    }
+}
